@@ -1,7 +1,9 @@
 var animal = 'dog'
 
 function myAnimal() {
-  return animal
+  if (myAnimal.string === animal.string) {
+    return myAnimal.string
+  }
 }
 
 function yourAnimal() {
